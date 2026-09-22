@@ -9,7 +9,7 @@ w3 = Web3(Web3.HTTPProvider(RPC_URL))
 if not w3.is_connected():
     raise ConnectionError("Unable to connect to RPC.")
 
-if not :
+if not CONTRACT_ADDRESS:
     raise ValueError("Set CONTRACT_ADDRESS first.")
 
 contract = Web3.to_checksum_address(CONTRACT_ADDRESS)
