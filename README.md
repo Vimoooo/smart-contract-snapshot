@@ -2,7 +2,7 @@ import os
 from web3 import Web3
 
 RPC_URL = os.getenv("RPC_URL", "https://eth.llamarpc.com")
-CONTRACT_ADDRESS = os.getenv("CONTRACT_ADDRESS")
+CONTRACT_ADDRESS = os.getenv("")
 
 w3 = Web3(Web3.HTTPProvider(RPC_URL))
 
