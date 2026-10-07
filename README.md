@@ -18,7 +18,7 @@ balance = w3.eth.get_balance(contract)
 code = w3.eth.get_code(contract)
 nonce = w3.eth.get_transaction_count(contract)
 
-print("=" * 55)
+print("=" * )
 print("SMART CONTRACT SNAPSHOT")
 print("=" * 55)
 print(f"Address:        {contract}")
